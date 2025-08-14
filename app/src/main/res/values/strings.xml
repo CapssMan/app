@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EconCalc</string>
+    <!-- Add more strings for labels, buttons, etc. -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="investment">Investment Indicators</string>
+    <string name="financial_planning">Financial Planning and Loans</string>
+    <!-- ... add for other sections -->
+</resources>

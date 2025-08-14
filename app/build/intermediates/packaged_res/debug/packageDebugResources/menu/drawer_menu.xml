@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_investment"
+            android:title="@string/investment" />
+        <item
+            android:id="@+id/nav_financial_planning"
+            android:title="@string/financial_planning" />
+        <item
+            android:id="@+id/nav_income"
+            android:title="Income and Investments" />
+        <item
+            android:id="@+id/nav_taxes"
+            android:title="Taxes and VAT" />
+        <item
+            android:id="@+id/nav_business"
+            android:title="Business Calculators" />
+        <item
+            android:id="@+id/nav_advanced"
+            android:title="Advanced Features" />
+    </group>
+</menu>

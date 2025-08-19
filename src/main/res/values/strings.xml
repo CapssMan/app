@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EconCalc Simple</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="investment">Investment Indicators</string>
+    <string name="templates">Templates</string>
+    <string name="property_type_prompt">Выберите тип недвижимости</string>
+    <string name="payment_type_prompt">Выберите тип платежа</string>
+</resources>

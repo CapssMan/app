@@ -20,9 +20,9 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
-        mavenCentral()
-        maven { url = uri("https://jitpack.io") }
+        google() // <--- ЭТО ВАЖНО
+        mavenCentral() // Стандартный репозиторий для многих библиотек
+        maven { url = uri("https://jitpack.io") } // <--- ЭТО НУЖНО ДЛЯ ВАШЕЙ ЛИБЫ
     }
 }
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/templatesFragment">
+    <fragment
+        android:id="@+id/templatesFragment"
+        android:name="com.example.econcalc.TemplatesFragment"
+        android:label="Шаблоны">
+        <action
+            android:id="@+id/action_templatesFragment_to_realEstateFragment"
+            app:destination="@id/realEstateFragment" />
+        <action
+            android:id="@+id/action_templatesFragment_to_startupFragment"
+            app:destination="@id/startupFragment" />
+        <action
+            android:id="@+id/action_templatesFragment_to_investmentFragment"
+            app:destination="@id/investmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/realEstateFragment"
+        android:name="com.example.econcalc.RealEstateFragment"
+        android:label="Недвижимость" />
+    <fragment
+        android:id="@+id/startupFragment"
+        android:name="com.example.econcalc.StartupFragment"
+        android:label="Стартап" />
+    <fragment
+        android:id="@+id/investmentFragment"
+        android:name="com.example.econcalc.InvestmentFragment"
+        android:label="Инвестиции" />
+</navigation>

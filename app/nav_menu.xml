@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/templatesFragment"
+        android:title="Шаблоны" />
+    <item
+        android:id="@+id/realEstateFragment"
+        android:title="Недвижимость" />
+    <item
+        android:id="@+id/startupFragment"
+        android:title="Стартап" />
+    <item
+        android:id="@+id/investmentFragment"
+        android:title="Инвестиции" />
+</menu>

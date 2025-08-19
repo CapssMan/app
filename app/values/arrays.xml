@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="property_types">
+        <item>Квартира</item>
+        <item>Дом</item>
+        <item>Коммерческая</item>
+    </string-array>
+    <string-array name="payment_types">
+        <item>Аннуитетный</item>
+        <item>Дифференцированный</item>
+    </string-array>
+</resources>
